@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  bottom: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  vertical-align: baseline;
+  background: 0 0;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  text-decoration: none !important;
+  color: #000;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+img,
+svg {
+  vertical-align: middle;
+}
+
+body {
+  background: #fafafa url(../../assets/image/bg.280cef1c.png);
+  font-family: Roboto, sans-serif;
+  position: relative;
+  overflow-x: hidden;
+}
+.pl-0 {
+  padding-left: 0;
+}
+.bottom_15 {
+  margin-bottom: 15px;
+}
+.top_15 {
+  margin-top: 15px;
+}
+.padbot_50 {
+  padding-bottom: 50px;
+}
+.padding_50 {
+  padding-top: 50px;
+}
+.padbot_45 {
+  padding-bottom: 45px;
+}
+.padding_30 {
+  padding-top: 30px;
+}
+
+.padding_45 {
+  padding-top: 45px;
+}
+.padbot_30 {
+  padding-bottom: 30px;
+}
+.top_30 {
+  margin-top: 30px;
+}
+.top_60 {
+  margin-top: 60px;
+}
+.bottom_30 {
+  margin-bottom: 30px;
+}
+.bottom_45 {
+  margin-bottom: 45px;
+}
+.padding_60 {
+  padding-top: 60px;
+}
+.tab-container,
+.pd-lr-12 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+header nav a.home-btn i {
+  font-size: 17px;
+}
+.pointer {
+  cursor: pointer;
+}
+.service .icon i:before {
+  margin-left: 0;
+  font-size: 44px;
+}
+.flaticon-schedule:before {
+  content: "";
+}
+.profile {
+  background: #fff;
+  border-radius: 6px;
+  width: 100%;
+  display: inline-block;
+  box-shadow: 0 2px 92px #00000012;
+}
+.profile-name {
+  padding: 20px;
+  line-height: 18px;
+}
+.profile .name {
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 700;
+}
+.profile .job {
+  color: #777;
+  font-size: 13px;
+}
+.profile-image {
+  clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
+  margin-top: -18px;
+}
+.profile-image img {
+  width: 100%;
+}
+
+/* css timeline */
+.profile-information li:first-child:before {
+  background: #ffc500;
+}
+.profile-information li:first-child:after {
+  background: url(../../assets/image/glasses.3e8381e1.png) 0 0 / 27px 10px
+    no-repeat;
+}
+
+.profile-information li:first-child:after {
+  content: "";
+  background: url(../../assets/image/glasses.3e8381e1.png) 0 0 / 27px 10px
+    no-repeat;
+  width: 30px;
+  height: 10px;
+  margin: 16px -15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.profile-information li:first-child {
+  padding-bottom: 10px;
+  padding-left: 30px;
+  position: relative;
+}
+.profile-information li {
+  color: #787878;
+  border-left: 2px solid #eee;
+  padding: 0 0 23px 20px;
+  font-size: 14px;
+  list-style: none;
+}
+.profile-information li:last-child {
+  border-left: none;
+}
+.profile-information li:first-child:before {
+  border: 0;
+  width: 40px;
+  height: 40px;
+  margin-top: -30px;
+  margin-bottom: 20px;
+  margin-left: -51px;
+  padding: 11px 14px;
+  position: relative;
+  box-shadow: 0 2px 32px #047bf84d;
+}
+.timeline li:before,
+.profile-information li:before {
+  border-color: #ffb100 !important;
+}
+.profile-information li:before {
+  content: "";
+  background: #fff;
+  border: 2px solid;
+  border-radius: 50px;
+  width: 8px;
+  height: 8px;
+  margin-top: 2px;
+  margin-left: -25px;
+  font-size: 8px;
+  font-weight: 400;
+  display: block;
+  position: absolute;
+}
+.profile-information li p {
+  color: #7f7f7f;
+  font-size: 13.5px;
+  line-height: 12px;
+  margin: 0;
+}
+.profile-information li span {
+  color: #000;
+  font-weight: 500;
+}
+/* css button down load */
+.profile .site-btn {
+  margin: 18px auto 30px;
+  display: block;
+}
+.site-btn {
+  border: none;
+  border-radius: 50px;
+  padding: 1px 29px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 35px;
+}
+.site-btn {
+  background: #ffc500;
+}
+.site-btn.icon {
+  text-align: left;
+  padding: 1px 6px 1px 19px;
+  background: #ffc500;
+}
+.site-btn.icon i {
+  color: #000;
+  float: right;
+  text-align: center;
+  background: #fff;
+  border-radius: 50px;
+  width: 27px;
+  height: 27px;
+  margin-top: 4px;
+  margin-left: 15px;
+  font-size: 11px;
+  line-height: 29px;
+}
+
+.profile .site-btn:hover {
+  background-color: #ffb100;
+}
