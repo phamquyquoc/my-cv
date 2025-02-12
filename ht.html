@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiển thị nội dung khi nhấp vào link</title>
+    <style>
+        /* Ẩn nội dung mặc định */
+        #hiddenContent {
+            display: none;
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin-top: 10px;
+            background-color: #f9f9f9;
+        }
+
+        /* Khi thẻ div được target, nó sẽ hiển thị */
+        #hiddenContent:target {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Link để hiển thị nội dung -->
+    <a href="#hiddenContent">Nhấp để xem nội dung</a>
+
+    <!-- Nội dung bị ẩn -->
+    <div id="hiddenContent">
+        <p>Đây là nội dung bị ẩn. Khi bạn nhấp vào liên kết, nó sẽ hiện ra.</p>
+    </div>
+
+</body>
+</html>
