@@ -477,8 +477,17 @@ footer .footer .copyright {
   display: block;
 }
 /* Chỉnh demo color*/
+.demo h5 {
+  color: #949494;
+  letter-spacing: 0;
+  height: 40px;
+  margin-bottom: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 33px;
+}
 .demo {
-  height: 225px;
+  height: 240px;
   z-index: 1000;
   width: 200px;
   padding: 10px;
@@ -486,16 +495,18 @@ footer .footer .copyright {
   text-align: center;
   position: fixed;
   top: 158px;
-  left: 0;
-  transition: transform 0.3s ease-in-out;
+  left: -200px; /* Ẩn ban đầu */
+  transition: left 0.3s ease-in-out;
 }
+
 .color {
   width: 20px;
   height: 20px;
   display: inline-block;
   margin: 6px;
 }
-.color:hover {
+
+.color:hover{
   cursor: pointer;
 }
 .settings {
@@ -508,7 +519,10 @@ footer .footer .copyright {
   color: black;
   padding: 15px 0;
   top: 0;
+  text-align: center;
+  border: 1px solid #ccc;
+  cursor: pointer;
 }
-.settings:hover ~ .demo {
-  transform: translateX(200px);
+.demo:hover {
+  left: 0;
 }
