@@ -60,7 +60,6 @@ body {
 .padding_30 {
   padding-top: 30px;
 }
-
 .padding_45 {
   padding-top: 45px;
 }
@@ -133,11 +132,6 @@ header nav a.home-btn i {
   background: #ffc500;
 }
 .profile-information li:first-child:after {
-  background: url(../../assets/image/glasses.3e8381e1.png) 0 0 / 27px 10px
-    no-repeat;
-}
-
-.profile-information li:first-child:after {
   content: "";
   background: url(../../assets/image/glasses.3e8381e1.png) 0 0 / 27px 10px
     no-repeat;
@@ -199,7 +193,7 @@ header nav a.home-btn i {
   margin: 0;
 }
 .profile-information li span {
-  color: #000;
+  color: #000 !important;
   font-weight: 500;
 }
 /* css button down load */
@@ -455,4 +449,48 @@ section {
   position: absolute;
   top: 0;
   bottom: 0;
+}
+
+/*Chỉ hiện 1 div và ẩn các div khác*/
+.visible{
+  display: none;
+}
+.visible:target {
+  display: block;
+}
+/* Chỉnh demo color*/
+.demo {
+  height: 225px;
+  z-index: 1000;
+  width: 200px;
+  padding: 10px;
+  background-color: #fff;
+  text-align: center;
+  position: fixed;
+  top: 158px;
+  left: 0;
+  transition: transform 0.3s ease-in-out;
+}
+.color {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin: 6px;
+}
+.color:hover {
+  cursor: pointer;
+}
+.settings {
+  font-size: 16px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: -51px;
+  background: white;
+  color: black;
+  padding: 15px 0;
+  top: 0;
+}
+.settings:hover ~ .demo {
+  transform: translateX(200px);
 }

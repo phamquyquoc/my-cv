@@ -1,0 +1,144 @@
+.working-history {
+    padding-left: 0;
+  }
+  .education-history{
+    padding-left:0;
+  }
+  ul.timeline {
+    margin-left: 10px;
+  }
+  
+  .timeline li:first-child {
+    padding: 0 0 60px 19px;
+  }
+  .timeline li {
+    border-left: 2px solid #ececec;
+    padding: 0 0 40px 30px;
+    list-style: none;
+  }
+  
+  li:first-child:before {
+    background: 0 0;
+    border: 0;
+    position: relative;
+  }
+  li:before,
+  ul.profile-information li:before {
+    border-color: #ffb100;
+  }
+  .timeline li:first-child:before {
+    display: none;
+  }
+  .timeline li:before {
+    content: "";
+    background: #fff;
+    border: 2px solid;
+    border-radius: 50px;
+    width: 8px;
+    height: 8px;
+    margin-top: -1px;
+    margin-left: -35px;
+    font-size: 8px;
+    font-weight: 400;
+    display: block;
+    position: absolute;
+  }
+  .timeline-title {
+    margin-left: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+  }
+  .timeline li:first-child i {
+    background: #ffc500;
+  }
+  .timeline li:first-child i {
+    float: left;
+    text-align: center;
+    background: #ffc500;
+    border-radius: 30px;
+    width: 53px;
+    margin: -13px -45px;
+    padding: 18px 16px;
+  }
+  .timeline li:last-child {
+    border-left: none;
+  }
+  .timeline li:last-child:before {
+    margin-left: -33px;
+  }
+  
+  .timeline li .line-title {
+    font-size: 16px;
+    line-height: 6px;
+  }
+  .timeline li span {
+    padding: 9px 0;
+    font-size: 12px;
+    display: block;
+    color: #000;
+  }
+  .little-text {
+    color: #989898;
+    font-weight: 400;
+    line-height: 18px;
+  }
+  
+  .clients .client {
+    background: #fff;
+    border-radius: 8px;
+    width: 100%;
+    padding: 26px 16px;
+    box-shadow: 0 0 48px #04060414;
+  }
+  .clients .client img {
+    width: 100%;
+  }
+  .testimonials {
+    overflow: hidden;
+  }
+  /* slide */
+  .testimonials .comment .top-section {
+    display: inline-block;
+  }
+  .slide .slide-item {
+    float: left;
+  }
+  .slide {
+    gap: 10px;
+    justify-content: center;
+  }
+  .testimonials .comment {
+    border-radius: 8px;
+    width: 100%;
+    padding: 15px;
+    box-shadow: 0 0 48px #04060414;
+  }
+  .testimonials .comment .top-section {
+    display: inline-block;
+  }
+  .testimonials .comment .top-section figure {
+    float: left;
+    border-radius: 50px;
+    width: 23%;
+    overflow: hidden;
+  }
+  .testimonials .comment .top-section .name-info {
+    float: left;
+    width: 68%;
+    padding: 8px 12px;
+    line-height: 15px;
+  }
+  .testimonials .comment .top-section figure img {
+    width: 100%;
+  }
+  .testimonials .comment .top-section .name-info .name {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .testimonials .comment .top-section .name-info .job {
+    color: #d0d0d0;
+    font-size: 12px;
+  }
+  
+ 
