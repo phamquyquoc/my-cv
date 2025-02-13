@@ -450,6 +450,24 @@ section {
   top: 0;
   bottom: 0;
 }
+/* CSS footer */
+footer .footer {
+  color: #fff;
+  background: #1e1e1e;
+  border-radius: 8px;
+  min-height: 70px;
+  line-height: 72px;
+}
+
+footer .footer .name {
+  color: #fff;
+  font-size: 15px;
+}
+footer .footer .copyright {
+  color: #9c9c9c;
+  text-align: right;
+  font-size: 12px;
+}
 
 /*Chỉ hiện 1 div và ẩn các div khác*/
 .visible{
