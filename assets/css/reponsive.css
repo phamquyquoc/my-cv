@@ -1,0 +1,86 @@
+/*small devices */
+@media (max-width: 767px) { 
+      .profile-information {
+        margin-top: -40px;
+        display: grid;
+        justify-content: center;
+        list-style: none;
+      }
+      .profile-information li:first-child::before{
+        top:30px;
+      }
+      .tab:not(:first-child) {
+        display: none;
+        z-index: 1000;
+        border-bottom: 1px solid #efefef;
+        text-align: center;
+      }
+      .site-btn{
+        display: none;
+      }
+      .social-icons{
+        position: absolute;
+        transform: translateX(-50px);
+        border-right: 1px solid gray;  
+      }
+      .hamburger{
+        position: absolute;
+        right: 30px;
+      }
+      .nav-right-responsive{
+        position: relative;
+        display: flex;
+        justify-content: flex-end; 
+      }
+      .services .row{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .footer .name{
+        display: none;
+      }
+      .footer {
+        display: flex;
+        justify-content: center; /* ngang */
+        align-items: center; /* dọc */
+      }
+}
+/*medium devices like tablets*/
+@media (min-width: 768px) and (max-width: 991px) { 
+    body{color: blue;}
+    .tab:not(:first-child) {
+        display: none;
+        z-index: 1000;
+        border-bottom: 1px solid #efefef;
+        text-align: center;
+      }
+      .site-btn{
+        display: none;
+      }
+      .social-icons{
+        position: absolute;
+        transform: translateX(-50px);
+        border-right: 1px solid gray;  
+      }
+      .hamburger{
+        position: absolute;
+        right: 30px;
+      }
+      .nav-right-responsive{
+        position: relative;
+        display: flex;
+        justify-content: flex-end; 
+      }
+      .footer .copyright{
+        display: flex;
+        text-align: center;
+        justify-content: center; 
+        align-items: center; 
+      }
+}
+/*medium devices like desktop*/
+@media (min-width: 992px)  { 
+    body{color: red;}  
+}
