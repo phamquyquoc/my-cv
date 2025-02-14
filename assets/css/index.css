@@ -520,8 +520,8 @@ footer .footer .copyright {
   padding: 15px 0;
   top: 0;
   text-align: center;
-  border: 1px solid #ccc;
   cursor: pointer;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 .demo:hover {
   left: 0;
