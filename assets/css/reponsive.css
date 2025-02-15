@@ -82,5 +82,7 @@
 }
 /*medium devices like desktop*/
 @media (min-width: 992px)  { 
-     
+     body{
+      width: 100%;
+     }
 }

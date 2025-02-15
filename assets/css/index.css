@@ -142,6 +142,10 @@ header nav a.home-btn i {
 }
 
 /* css timeline */
+.profile-information {
+  margin: 8px 0 8px 5px;
+  list-style: none;
+}
 .profile-information li:first-child:before {
   background: #ffc500;
 }
@@ -155,6 +159,9 @@ header nav a.home-btn i {
   position: absolute;
   top: 0;
   left: 0;
+}
+ul.profile-information li:before {
+  border-color: #ffb100;
 }
 .profile-information li:first-child {
   padding-bottom: 10px;
@@ -204,7 +211,6 @@ header nav a.home-btn i {
 }
 .profile-information li span {
   color: #000 !important;
-  font-weight: 500;
 }
 /* css button down load */
 .profile .site-btn {
@@ -412,7 +418,6 @@ section {
   margin: 10px 0 20px;
   display: block;
   position: relative;
-  overflow: visible;
 }
 .skill-list h3 {
   font-size: 12px;
@@ -495,8 +500,9 @@ footer .footer .copyright {
   top: 0;
   text-align: center;
   cursor: pointer;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 10px #00000026;
 }
 .demo:hover {
   left: 0;
 }
+

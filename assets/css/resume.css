@@ -21,9 +21,9 @@
     background: 0 0;
     border: 0;
     position: relative;
+    background: #ffc500;
   }
-  li:before,
-  ul.profile-information li:before {
+  ul.timeline li:before {
     border-color: #ffb100;
   }
   .timeline li:first-child:before {
