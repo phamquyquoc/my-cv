@@ -134,7 +134,7 @@ header nav a.home-btn i {
   font-size: 13px;
 }
 .profile-image {
-  clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
+  clip-path: polygon(0% 9%, 100% 0, 100% 94%, 0% 100%);
   margin-top: -18px;
 }
 .profile-image img {
@@ -181,10 +181,6 @@ header nav a.home-btn i {
   padding: 11px 14px;
   position: relative;
   box-shadow: 0 2px 32px #047bf84d;
-}
-.timeline li:before,
-.profile-information li:before {
-  border-color: #ffb100 !important;
 }
 .profile-information li:before {
   content: "";
@@ -248,32 +244,6 @@ header nav a.home-btn i {
 .profile .site-btn:hover {
   background-color: #ffb100;
 }
-
-
-.icon-fixed {
-  z-index: 1000;
-  width: 200px;
-  padding: 10px;
-  position: fixed;
-  top: 158px;
-  left: -200px;
-}
-.icon-fixed .setting {
-  color: #101010;
-  width: 50px;
-  height: 50px;
-  padding: 15px 0;
-  font-size: 16px;
-  position: absolute;
-  top: 0;
-  right: -51px;
-}
-.icon-fixed,
-.icon-fixed .setting {
-  text-align: center;
-  background-color: #fff;
-  box-shadow: 0 0 8px #00000026;
-}
  /* Adjust header */
 li {
   list-style: none;
@@ -285,13 +255,11 @@ header nav {
   height: 70px;
   margin-bottom: 30px;
   line-height: 70px;
-  display: inline-block;
   box-shadow: 0 2px 92px #00000012;
 }
 header nav ul li {
   float: left;
 }
-
 header nav a.home-btn {
   color: #fff;
   float: left;
@@ -339,18 +307,12 @@ header nav a.home-btn {
   line-height: 35px;
   color: #000;
 }
-.site-btn.icon {
-  text-align: left;
-  padding: 1px 6px 1px 19px;
-  text-decoration: none;
-}
 header nav .site-btn {
   margin: 18px 18px 0 5px;
 }
 .pull-right {
   float: right;
 }
-
 .site-btn:hover,
 .home-btn:hover {
   color: #000;
@@ -512,14 +474,12 @@ footer .footer .copyright {
   left: -200px; /* Ẩn ban đầu */
   transition: left 0.3s ease-in-out;
 }
-
 .color {
   width: 20px;
   height: 20px;
   display: inline-block;
   margin: 6px;
 }
-
 .color:hover{
   cursor: pointer;
 }
